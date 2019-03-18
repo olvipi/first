@@ -76,7 +76,9 @@
 .ism-button, .ism-pause-button {
   position: absolute;
   display: block;
-  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   border: none;
   outline: none;
   text-align:center;
@@ -97,7 +99,9 @@
 }
 
 .ism-caption {
-  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0 1em;
   text-shadow: none;
   line-height: 1.2em;
@@ -139,7 +143,9 @@ a.ism-caption:hover {
 
 .ism-slider .ism-radios {
   position: absolute;
-  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   z-index: 6;
   bottom: 5px;
   left: 0;
@@ -168,14 +174,19 @@ a.ism-caption:hover {
 
 .ism-radios label {
   display: block;
-  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   text-decoration: none;
   cursor: pointer;
 }
 
 .ism-radios-as-thumbnails label {
-  -webkit-background-size: 120% auto; -moz-background-size: 120% auto; -o-background-size: 120% auto; background-size: 120% auto;
+  -webkit-background-size: 120% auto;
+  -moz-background-size: 120% auto;
+  -o-background-size: 120% auto;
+  background-size: 120% auto;
   background-position: center center;
   background-repeat: no-repeat;
   border: 2px solid rgba(255, 255, 255, 0.6);
@@ -284,13 +295,13 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-  width: 1012px;
+  /*width: 1012px;*/
   -webkit-border-radius: 5px; border-radius: 5px;
   margin: auto;
 }
 
 #my-slider-ism-badge {
-  width: 1012px;
+  /*width: 1012px;*/
 }
 
 #my-slider:before {
@@ -304,8 +315,12 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-button {
   display: block;
   border-radius: 16px;
-  width: 32px; height: 32px; background-size: 16px 16px; top: 50%; margin-top: -16px;
-  color: #fff; background-color: rgba(255, 255, 255, 0.3);
+  width: 32px;
+  height: 32px;
+  background-size: 16px 16px; top: 50%;
+  margin-top: -16px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
   visibility: hidden;
 }
 
@@ -320,8 +335,16 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-pause-button {
-  width: 32px; height: 32px; background-size: 16px 16px; top: 50%; margin-top: -16px; border-radius: 16px; margin-left: -16px;
-  color: #fff; background-color: rgba(255, 255, 255, 0.3); background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVR42u3SsQkAIAxFQeP+O38XsBKxMPfKgCQcjqHe1W6YJFeXVNXJuxd3zO4/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID0RwuEoAh40yYcSQAAAABJRU5ErkJggg==);
+  width: 32px;
+  height: 32px;
+  background-size: 16px 16px;
+  top: 50%;
+  margin-top: -16px;
+  border-radius: 16px;
+  margin-left: -16px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVR42u3SsQkAIAxFQeP+O38XsBKxMPfKgCQcjqHe1W6YJFeXVNXJuxd3zO4/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID0RwuEoAh40yYcSQAAAABJRU5ErkJggg==);
 }
 
 #my-slider .ism-pause-button.ism-play {
@@ -347,9 +370,11 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-radios label {
-  width: 20px; height: 20px;
+  width: 20px;
+  height: 20px;
   border-radius: 10px;
-  color: #000; background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #my-slider .ism-radios li.active label {
@@ -378,7 +403,11 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider .ism-slide-1 .ism-img {
   width: 100%;
-  top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #my-slider .ism-slide-2 .ism-img-frame {
@@ -387,135 +416,166 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider .ism-slide-2 .ism-img {
   width: 100%;
-  top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 
 /* CAPTIONS */
 
 #my-slider .ism-slide-0 .ism-caption-0.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-0 .ism-caption-1.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-0 .ism-caption-2.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-1 .ism-caption-0.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-1 .ism-caption-1.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-1 .ism-caption-2.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-2 .ism-caption-0.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-2 .ism-caption-1.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-2 .ism-caption-2.ism-caption-anim {
-  -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 #my-slider .ism-slide-0 .ism-caption-0 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 10%;
+  position: absolute;
+  top: 10%;
   left: 5%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-0 .ism-caption-1 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 60%;
+  position: absolute;
+  top: 60%;
   left: 40%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-0 .ism-caption-2 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 20%;
+  position: absolute;
+  top: 20%;
   left: 60%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-1 .ism-caption-0 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 10%;
+  position: absolute;
+  top: 10%;
   left: 5%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-1 .ism-caption-1 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 60%;
+  position: absolute;
+  top: 60%;
   left: 40%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-1 .ism-caption-2 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 20%;
+  position: absolute;
+  top: 20%;
   left: 60%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-2 .ism-caption-0 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 10%;
+  position: absolute;
+  top: 10%;
   left: 5%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-2 .ism-caption-1 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 60%;
+  position: absolute;
+  top: 60%;
   left: 40%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 #my-slider .ism-slide-2 .ism-caption-2 {
   font-size: 1.25em;
   font-family: sans-serif;
-  position: absolute; top: 20%;
+  position: absolute;
+  top: 20%;
   left: 60%;
   border-radius: 4px;
   border: none;
-  color: #fff; background-color: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
