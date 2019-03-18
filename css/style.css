@@ -1,0 +1,450 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+  background: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.graphic-logo{
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 5px;
+}
+
+header nav{
+  height: 100px;
+  margin: auto;
+  width: 800px;
+}
+
+.top-nav{
+  background-color: white;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.top-nav a {
+  color: black;
+  font-size: 15px;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.top-nav a:hover{
+  border-bottom: 2px solid black;
+}
+
+.top-nav a:first-child{
+  margin-left: 65px;
+}
+
+.top-nav .icon{
+  display: none;
+  width: 0;
+}
+
+.wrap{
+  height: 400px;
+  overflow: hidden;
+}
+
+.mw-100{
+  max-width: 100%;
+  margin-top: -10%;
+}
+
+.tip {
+  display: none;
+
+}
+
+.advantages__container{
+  display: flex;
+  justify-content: center;
+}
+
+.advantages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+  width: 70%;
+}
+
+.advantages__item{
+  width: 30%;
+}
+.advantages__item img{
+  max-width: 50%;
+}
+
+footer{
+  background: black;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+footer a{
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+footer p{
+  color: white;
+  font-size: 13px;
+}
+
+footer nav a:hover{
+  border-bottom: 1px solid white;
+}
+
+.social img{
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.social img:hover{
+  background: #494949;
+  border-radius: 50%;
+}
+
+.gallery{
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  margin: auto auto 50px auto;
+  /*width: 80%;*/
+}
+
+.photo-item{
+  width: 25%;
+}
+
+.photo-item img{
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 100%;
+  opacity: 0.7;
+  padding: 3px;
+}
+
+.photo-item img:hover{
+  opacity: 1;
+}
+
+.blog-container{
+  background: #fafafa;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px  2px -2px;
+  font-weight: 100;
+  margin: 48px auto;
+  width: 50rem;
+}
+
+.blog-container a:hover{
+  border-color: #2bafc4;
+  color: #2bafc4;
+}
+
+.blog-cover{
+  background-size: cover;
+  background: url("https://www.netmanage.ch/images/prestations/web.jpg");
+  border-radius: 5px 5px 0 0;
+  box-shadow: inset rgba(0,0,0,0.2) 64px 64px 16px;
+  height: 15rem;
+}
+
+.blog-body{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.blog-title h1 a{
+  color: #333;
+  font-weight: 100;
+}
+
+.blog-text p{
+  color: #4d4d4d;
+}
+
+.blog-tags ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-tags li{
+  margin-right: 0.5rem;
+}
+
+.blog-tags a{
+  border-radius: 3px;
+  border: 1px solid #999999;
+  color: #999999;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 5rem;
+}
+
+.blog-footer{
+  border-top: 1px solid #e6e6e6;
+  margin: 0 auto;
+  padding-bottom: 0.125rem;
+  width: 80%;
+}
+
+.blog-footer ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-footer li{
+  color: #999999;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.published-date{
+  border-bottom: 1px dashed #999999;
+  padding: 0 0.5rem;
+}
+
+.location-header{
+  margin: 0 auto 1rem 10%;
+}
+#map{
+  height: 400px;
+  margin: 0 auto 1rem auto;
+  width: 80%;
+}
+
+.form{
+  margin: 50px auto;
+  width: 50%;
+}
+
+.feedback-input{
+  background: white;
+  border: 0 solid transparent;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 10px;
+  padding: 13px;
+  width: 100%;
+}
+
+textarea{
+  height: 150px;
+  resize: vertical;
+  width: 100%;
+}
+
+.button-submit{
+  background: black;
+  border: 0 solid transparent;
+  color: white;
+  cursor: pointer;
+  float: left;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -4px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  transition: all .3s;
+  width: 100%;
+}
+
+.button-submit:hover{
+  background: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.ease{
+  background: lightgray;
+  height: 74px;
+  transition: .3s ease;
+  width: 0;
+}
+
+.about-container{
+  margin: 0 auto 50px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.about-container img{
+  max-width: 100%;
+}
+
+.about-container p{
+  margin-top: 50px;
+}
+
+.about-container h1{
+  margin-top: 40px;
+}
+
+.services{
+  margin: 0 auto 50px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.services img{
+  max-width: 100%;
+}
+
+.services__container{
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px){
+
+  .top-nav a:not(:first-child){
+    display: none;
+  }
+
+  .top-nav a:first-child{
+    margin-left: auto;
+  }
+
+  .top-nav a.icon{
+    color: black;
+    display: block;
+    float: right;
+    margin-top: -17px;
+  }
+
+  header nav{
+    height: 50px;
+    width: 100%;
+  }
+
+  .top-nav.responsive{
+    background: rgba(255, 255, 255, 0.7);
+    position: relative;
+  }
+
+  .top-nav.responsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .top-nav.responsive a{
+    display: block;
+    float: none;
+    text-align: left;
+  }
+
+  .wrap{
+    height: auto;
+  }
+
+  .mw-100{
+    margin-top: 0;
+  }
+
+  .advantages__item{
+    width: 45%;
+  }
+
+  .photo-item{
+    margin-left: 10px;
+    width: 45%;
+  }
+
+  .blog-container{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .wrap{
+    height: auto;
+  }
+
+  .mw-100{
+    /*margin-top: auto;*/
+  }
+
+  .advantages{
+    flex-direction: column;
+  }
+
+  .advantages__item{
+    width: 100%;
+  }
+  .projects{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .gallery{
+    margin: auto;
+    width: auto;
+  }
+
+  .photo-item{
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .services__container{
+    grid-template-columns: auto;
+  }
+}
+
+
