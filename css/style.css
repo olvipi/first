@@ -432,10 +432,10 @@ textarea{
     display: flex;
     justify-content: center;
   }
-  .gallery{
-    margin: auto;
-    width: auto;
-  }
+  /*.gallery{*/
+    /*margin: auto;*/
+    /*width: auto;*/
+  /*}*/
 
   .photo-item{
     margin: 0 auto;
